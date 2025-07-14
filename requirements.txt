@@ -1,0 +1,9 @@
+# For Reddit API
+praw
+
+# For environment variables
+python-dotenv
+
+# For LLM interaction
+langchain
+langchain-google-genai
