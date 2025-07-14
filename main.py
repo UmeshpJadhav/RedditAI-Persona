@@ -1,5 +1,6 @@
 import sys
 from src.reddit_scraper import get_reddit_instance, get_user_posts, get_user_comments
+from src.persona_generator import PersonaGenerator
 
 def main():
     """Main function to run the Reddit persona generator."""
@@ -20,7 +21,7 @@ def main():
         print("No username provided. Exiting.")
         sys.exit(1)
 
-    print(f"Starting data scraping for user: u/{username}")
+    print(f"\nStarting data scraping for user: u/{username}")
 
     reddit = get_reddit_instance()
     
@@ -36,16 +37,19 @@ def main():
     print(f"- Found {len(posts)} posts.")
     print(f"- Found {len(comments)} comments.")
 
-    print("\n--- Posts ---")
-    for post in posts:
-        print(f"\n>>> POST TITLE: {post.title}")
-        print(f">>> POST BODY: {post.selftext}")
+    # Generate persona
+    print("\nGenerating persona...")
+    generator = PersonaGenerator()
+    persona = generator.generate_persona(posts, comments)
+    
+    print("\nGenerated Persona:")
+    print(persona)
 
-    print("\n--- Comments ---")
-    for comment in comments:
-        # Replace newlines with spaces for cleaner, single-line output
-        comment_body = comment.body.replace('\n', ' ')
-        print(f"- {comment_body}")
+    # Save persona to a text file
+    output_filename = f"{username}.txt"
+    with open(output_filename, "w", encoding="utf-8") as f:
+        f.write(persona)
+    print(f"\nPersona saved to {output_filename}")
 
 if __name__ == "__main__":
     main()
