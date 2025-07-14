@@ -1,56 +1,69 @@
 # Reddit User Persona Generator
 
-This script scrapes a Reddit user's profile for their posts and comments, then uses a Large Language Model (LLM) via LangChain to generate a user persona based on their activity. For each characteristic in the persona, the script provides citations from the user's content.
+This project scrapes a Reddit user's posts and comments, then uses Google Gemini (LLM) to generate a detailed user persona. Each persona characteristic is supported by citations from the user's Reddit activity.
+
+---
 
 ## Features
 
-- Scrapes recent posts and comments from any public Reddit profile.
-- Uses LangChain to interact with a Hugging Face LLM for persona analysis.
-- Generates a detailed persona with citations for each point.
-- Saves the output to a clean, readable text file.
+- **Scrapes all available posts and comments** from any public Reddit profile using the Reddit API (PRAW).
+- **Uses Google Gemini** (via `google-generativeai`) to analyze the user's Reddit activity and generate a structured persona.
+- **Citations:** Each persona trait, motivation, or preference is supported by a citation from the user's posts or comments.
+- **Output:** Saves the generated persona to a text file named after the Reddit username (e.g., `kojied.txt`).
+
+---
 
 ## Setup Instructions
 
-1.  **Clone the Repository**
-    ```bash
-    git clone <your-repo-link>
-    cd RedditAI-Persona
-    ```
+### 1. Clone the Repository
+```bash
+git clone <your-repo-link>
+cd RedditAI-Persona
+```
 
-2.  **Create a Virtual Environment**
-    ```bash
-    python -m venv venv
-    ```
-    - On Windows:
-      ```bash
-      .\venv\Scripts\activate
-      ```
-    - On macOS/Linux:
-      ```bash
-      source venv/bin/activate
-      ```
+### 2. Install Dependencies
+Make sure you have Python 3.8+ installed. Then run:
+```bash
+pip install -r requirements.txt
+```
 
-3.  **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
+### 3. Configure Environment Variables
+Create a `.env` file in the project root with the following content:
+```ini
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_client_secret
+REDDIT_USER_AGENT=your_user_agent
+GOOGLE_API_KEY=your_gemini_api_key
+```
+- Get Reddit API credentials from: https://www.reddit.com/prefs/apps
+- Get a Google Gemini API key from: https://aistudio.google.com/app/apikey
 
-4.  **Configure Environment Variables**
-    - Copy the `.env.example` file to a new file named `.env`.
-    - Open the `.env` file and add your API credentials for Reddit and Hugging Face.
+---
 
 ## How to Run
 
-To generate a persona, run the `main.py` script from your terminal, providing the Reddit username as a command-line argument:
-
+Run the script and enter a Reddit username or profile URL when prompted:
 ```bash
-python main.py <reddit_username>
+python main.py
+```
+Example input:
+```
+Please enter the Reddit username or profile URL: https://www.reddit.com/user/kojied/
 ```
 
-### Example
+This will create a file named `kojied.txt` in the project directory containing the user persona in a structured, readable format.
 
-```bash
-python main.py kojied
-```
+---
 
-This will create a file named `kojied.txt` in the project directory containing the user persona.
+## Notes
+
+- The script fetches as many posts and comments as Reddit's API allows (up to 1000 each).
+- The persona output includes citations for each characteristic, referencing the relevant post or comment.
+- Make sure your API keys are valid and have sufficient quota.
+- The code follows PEP-8 guidelines.
+
+---
+
+## Sample Output
+
+See the `.txt` files in the repository for sample personas generated for the users provided in the assignment.
