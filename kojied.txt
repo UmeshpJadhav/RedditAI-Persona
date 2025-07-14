@@ -1,23 +1,40 @@
-## User Persona: Kenji Watanabe
+Here's a user persona based on the provided Reddit data:
 
-**Age:** 30-35. The user references attending a bar frequented by a "mature vibe" crowd and feeling out of place amidst younger "interns" in New York nightlife, suggesting someone who has lived in the city for a few years and is experiencing a shift in the social scene. (Post: "I feel violated by intern season") Also, the user mentions having had a CitiBike membership for a while (Comment: 1695594698.0), as well as investing in startups (Comment: 1584407416.0), which would suggest that the user is most likely in their thirties.
-**Occupation:** iOS Developer specializing in Spatial Computing. The user identifies as an iOS developer working with visionOS (Posts: "Best blogs, tutorial channels to learn"; "Can't wait for Vision Air 5 launching in 2034 with these transparent displays!"; "Can you actually “work” in AVP?"), indicating a role focused on Apple's Vision Pro platform.
-**Status:** Unknown. No direct indication of relationship status.
-**Location:** New York City, NY (currently, but has also lived in Boston and is originally from Japan). The user references local NYC bars, restaurants, parks, subway lines, and other locations (Posts: "I feel violated by intern season"; Comments: 1750004492.0, 1735569627.0, 1732812953.0, 1716332400.0, 1696725474.0). Also mentions moving from Boston to NYC (Comment: 1691363524.0).
-**Tier:** Early Adopter. The user owns an Apple Vision Pro, actively develops for it, and is interested in its potential applications (Posts: "Spacial tours with 3D map and 360˚ video"; "Can you actually “work” in AVP?").
-**Archetype:** The Pioneer. The user is exploring new technologies and applications (Spatial Computing, Vision Pro) and seeking to define the future of these spaces (Posts: "Spacial tours with 3D map and 360˚ video"; "Would you guys like to see Pokemon Go in AVP?").
+Name: kojied
+Age: 30-40 (Likely a Millennial, potentially on the older end given the "old person" comment in the bar and references to millennial experiences.)
+Occupation: iOS Developer (Mentioned building in visionOS, "Hey I’m an iOS developer building in visionOS.")
+Status: Unknown
+Location: New York City (Frequently references NYC locations, "There's this bar that I frequent a few blocks away from my house.")
+Tier: Early Adopter (Definitely an early adopter of new tech, especially Vision Pro)
+Archetype: The Explorer/Innovator (Exploring new technologies, creating new concepts, analyzing trends and sharing insights.)
 
-**Personality Traits:**
+Personality Traits:
+- **Observant and Analytical:** (Frequently analyzes situations, trends, and patterns, "I’ve noticed this sub is pro-West leaning," "I’m hoping people realize after this that it’s not a left or right issue...")
+- **Intellectual Curiosity:** (Interested in a wide range of topics from finance to gaming to culture, "H1B holders, what are your thoughts on the narrative that you are being exploited?", "What’s a movie that best represents your childhood?")
+- **Helpful and Generous:** (Willing to share knowledge and advice, offers detailed recommendations and suggestions, "Go to the fire station and stock up on axes," gives fashion advice with specific product links).
+- **Pragmatic:** (Balances enthusiasm with practicality, recognizes the limitations of new technologies, "Can you actually “work” in AVP?")
+- **Worldly:** (Has lived in multiple countries and traveled extensively, "I’m Japanese, but grew up in Austria Serbia Slovenia, and now live in San Francisco.")
+- **Reflective:** (Considers their own biases and impact on the world, "Am I not the same as they are, just at a longer time horizon?")
 
-- **Analytical:** The user breaks down complex situations and problems into smaller, manageable components. ("Can’t really discuss this without your strategy. If you’re setting up on the coast over river, your strategy must involve maritime trades." [1743175025.0])
-- **Curious:** The user asks questions and explores different perspectives. ("H1B holders, what are your thoughts on the narrative that you are being exploited?" [1735358070.0])
-- **Thoughtful:** The user considers the broader implications of their actions and the actions of others. ("I’m hoping people realize after this that it’s not a left or right issue, but rather those with wealth pitting those less fortunate against each other." [1735357690.0])
-- **Driven:** The user works on personal app development projects and seeks to improve their skills. ("Hey I’m an iOS developer building in visionOS. Do people have recommendations on resources to catch up on new featuresets for spacial computing?" [1709311384.0])
-- **Reflective:** The user is capable of self-reflection and re-evaluating their beliefs and actions. ("Am I not the same as they are, just at a longer time horizon?" [I feel violated by intern season post])
-- **Community-Minded:** The user actively engages in online communities, offering advice and sharing their experiences. ("Go to the fire station and stock up on axes. Then go to the hardware store and get a sledgehammer." [1733596068.0])
-- **Pragmatic:** The user balances idealism with practicality, especially in financial decisions. ("Key to "rich" is to have assets which appreciate in value, but also have sufficient income to pay for your daily expenses." [1720536327.0])
-- **Culturally Aware:** The user demonstrates an understanding of Japanese culture and traditions, as well as awareness of cultural appropriation. ("I think there's a stark difference between fetishizing and respecting a certain culture." [1712938921.0])
+Motivations:
+- **To understand and analyze the world around them:** (As evidenced by their posts about H1B visas, the economy, and social issues.)
+- **To find meaning and fulfillment:** (Implied in their journey of self-discovery and search for an "ideal home" - "I’ve always been search for an “ideal home”).
+- **To innovate and create:** (Working on spatial computing and developing apps, "Hey I’m an iOS developer building in visionOS.")
+- **To connect with others:** (Actively participates in online communities and shares experiences.)
 
-**Motivations:**
+Preferences:
+- **Technology:** (Interested in new technologies, especially AR/VR, "Spacial tours with 3D map and 360˚ video," "Can't wait for Vision Air 5 launching in 2034")
+- **Travel and Culture:** (Has traveled extensively and is interested in different cultures, speaks multiple languages - implied by Japanese and international upbringing.)
+- **Efficiency and Optimization:** (Seeks optimal strategies in gaming and life, "The optimal strategy I've discovered is the following...")
+- **Quality over Quantity:** (Prefers high-quality experiences and products, "I usually like to keep the AppleTV stuff until the end," "Family mart chicken “FamiChiki” is unparalleled")
 
-- **Innovation:** The user seeks to be at the forefront of technological advancements. ("This is super exciting! Immersive
+Behaviour & Habits:
+- kojied is an active Reddit user, participating in a variety of subreddits. They are an early adopter of technology and actively explore new use cases for it, particularly in the realm of AR/VR ("Can you actually “work” in AVP?"). They are a frequent traveler, both for leisure and business, and appreciate cultural experiences ("Watching Edgerunners on the moon feels"). They are thoughtful about their spending habits, tracking expenses and seeking value for money ("I started tracking my expenses and realized how much unnecessary stuff I had been purchasing"). They engage in discussions, offering advice and insights based on their experiences and knowledge ("You have to kill the bandit units, or donate crop yields though the manor"). They are also interested in personal development and self-improvement ("I’ve been lurking in this channel for a while now, and have been greatly inspired by the ways people have found ways to stretch their money").
+
+Goals & Needs:
+- **To find innovative uses for new technologies:** (Specifically, the Apple Vision Pro, "Would you guys like to see Pokemon Go in AVP?")
+- **To optimize their workflow and productivity:** ("Can you actually “work” in AVP?")
+- **To make informed financial decisions:** (As evidenced by their interest in tracking expenses and purchases, "How do you decide what to buy and not buy?")
+- **To find a sense of belonging and community:** (Implied by their search for an "ideal home" and active participation in online communities, "It’ll be cool if this community took off.")
+
+Intuition
