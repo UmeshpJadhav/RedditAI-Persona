@@ -4,6 +4,5 @@ praw
 # For environment variables
 python-dotenv
 
-# For LLM interaction
-langchain
-langchain-google-genai
+# For Google Gemini LLM
+google-generativeai
