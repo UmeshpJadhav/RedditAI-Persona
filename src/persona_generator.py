@@ -31,32 +31,60 @@ class PersonaGenerator:
         
         return formatted_data
 
-    def generate_persona(self, posts, comments) -> str:
+    def generate_persona(self, posts, comments, display_name) -> str:
         """
         Generate a user persona from Reddit data.
         
         Args:
             posts: List of Reddit posts
             comments: List of Reddit comments
+            display_name: The Reddit user's display name
             
         Returns:
-            str: JSON-formatted persona with citations
+            str: Persona in a structured, human-readable format with citations
         """
         formatted_data = self.format_reddit_data(posts, comments)
         
-        prompt = f"""Based on the following Reddit user data, generate a detailed user persona.
-        For each characteristic, include at least one citation from their posts or comments.
-        Format the response as JSON with these fields:
-        - name: The user's Reddit username
-        - age: Estimated age range
-        - location: Likely location based on posts
-        - interests: List of interests with citations
-        - personality: Personality traits with citations
-        - values: Core values with citations
-        - citations: List of post/comment IDs used for each characteristic
+        prompt = f"""
+Based on the following Reddit user data, generate a detailed user persona in the following format:
 
-        User Data:
-        {formatted_data}
-        """
+Name: {display_name}
+Age: [Estimated Age]
+Occupation: [If possible]
+Status: [Relationship status if possible]
+Location: [Likely location]
+Tier: [e.g., Early Adopters, if possible]
+Archetype: [e.g., The Creator, if possible]
+
+Personality Traits:
+- [Trait 1] (cite post/comment)
+- [Trait 2] (cite post/comment)
+
+Motivations:
+- [Motivation 1] (cite post/comment)
+- [Motivation 2] (cite post/comment)
+
+Preferences:
+- [Preference 1] (cite post/comment)
+- [Preference 2] (cite post/comment)
+
+Behaviour & Habits:
+- [Narrative paragraph or bullet points, with citations]
+
+Goals & Needs:
+- [Goal 1] (cite post/comment)
+- [Goal 2] (cite post/comment)
+
+Intuition:
+- [Intuition 1] (cite post/comment)
+
+Frustrations:
+- [Frustration 1] (cite post/comment)
+
+For each point, cite the post or comment (by ID or short quote) that supports it.
+
+User Data:
+{formatted_data}
+"""
         
         return self.llm.generate_text(prompt)

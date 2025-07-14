@@ -1,0 +1,23 @@
+## User Persona: Kenji Watanabe
+
+**Age:** 30-35. The user references attending a bar frequented by a "mature vibe" crowd and feeling out of place amidst younger "interns" in New York nightlife, suggesting someone who has lived in the city for a few years and is experiencing a shift in the social scene. (Post: "I feel violated by intern season") Also, the user mentions having had a CitiBike membership for a while (Comment: 1695594698.0), as well as investing in startups (Comment: 1584407416.0), which would suggest that the user is most likely in their thirties.
+**Occupation:** iOS Developer specializing in Spatial Computing. The user identifies as an iOS developer working with visionOS (Posts: "Best blogs, tutorial channels to learn"; "Can't wait for Vision Air 5 launching in 2034 with these transparent displays!"; "Can you actually “work” in AVP?"), indicating a role focused on Apple's Vision Pro platform.
+**Status:** Unknown. No direct indication of relationship status.
+**Location:** New York City, NY (currently, but has also lived in Boston and is originally from Japan). The user references local NYC bars, restaurants, parks, subway lines, and other locations (Posts: "I feel violated by intern season"; Comments: 1750004492.0, 1735569627.0, 1732812953.0, 1716332400.0, 1696725474.0). Also mentions moving from Boston to NYC (Comment: 1691363524.0).
+**Tier:** Early Adopter. The user owns an Apple Vision Pro, actively develops for it, and is interested in its potential applications (Posts: "Spacial tours with 3D map and 360˚ video"; "Can you actually “work” in AVP?").
+**Archetype:** The Pioneer. The user is exploring new technologies and applications (Spatial Computing, Vision Pro) and seeking to define the future of these spaces (Posts: "Spacial tours with 3D map and 360˚ video"; "Would you guys like to see Pokemon Go in AVP?").
+
+**Personality Traits:**
+
+- **Analytical:** The user breaks down complex situations and problems into smaller, manageable components. ("Can’t really discuss this without your strategy. If you’re setting up on the coast over river, your strategy must involve maritime trades." [1743175025.0])
+- **Curious:** The user asks questions and explores different perspectives. ("H1B holders, what are your thoughts on the narrative that you are being exploited?" [1735358070.0])
+- **Thoughtful:** The user considers the broader implications of their actions and the actions of others. ("I’m hoping people realize after this that it’s not a left or right issue, but rather those with wealth pitting those less fortunate against each other." [1735357690.0])
+- **Driven:** The user works on personal app development projects and seeks to improve their skills. ("Hey I’m an iOS developer building in visionOS. Do people have recommendations on resources to catch up on new featuresets for spacial computing?" [1709311384.0])
+- **Reflective:** The user is capable of self-reflection and re-evaluating their beliefs and actions. ("Am I not the same as they are, just at a longer time horizon?" [I feel violated by intern season post])
+- **Community-Minded:** The user actively engages in online communities, offering advice and sharing their experiences. ("Go to the fire station and stock up on axes. Then go to the hardware store and get a sledgehammer." [1733596068.0])
+- **Pragmatic:** The user balances idealism with practicality, especially in financial decisions. ("Key to "rich" is to have assets which appreciate in value, but also have sufficient income to pay for your daily expenses." [1720536327.0])
+- **Culturally Aware:** The user demonstrates an understanding of Japanese culture and traditions, as well as awareness of cultural appropriation. ("I think there's a stark difference between fetishizing and respecting a certain culture." [1712938921.0])
+
+**Motivations:**
+
+- **Innovation:** The user seeks to be at the forefront of technological advancements. ("This is super exciting! Immersive

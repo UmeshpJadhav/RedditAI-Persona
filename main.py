@@ -29,6 +29,9 @@ def main():
     posts = get_user_posts(reddit, username)
     comments = get_user_comments(reddit, username)
 
+    # Use the Reddit username for persona name
+    persona_name = username
+
     if not posts and not comments:
         print(f"\nNo data found for user u/{username}. Exiting.")
         return
@@ -40,7 +43,7 @@ def main():
     # Generate persona
     print("\nGenerating persona...")
     generator = PersonaGenerator()
-    persona = generator.generate_persona(posts, comments)
+    persona = generator.generate_persona(posts, comments, persona_name)
     
     print("\nGenerated Persona:")
     print(persona)

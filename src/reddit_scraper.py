@@ -50,3 +50,12 @@ def get_user_comments(reddit, username, limit=None):
         print(f"Error scraping comments for u/{username}: {e}")
         print("Please ensure the username is correct and the user exists.")
         return []
+
+def get_user_name(reddit, username):
+    """Fetches the Reddit user's display name (username)."""
+    try:
+        user = reddit.redditor(username)
+        return user.name
+    except Exception as e:
+        print(f"Error fetching name for u/{username}: {e}")
+        return username
