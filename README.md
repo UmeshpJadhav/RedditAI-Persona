@@ -48,7 +48,7 @@ python main.py
 ```
 Example input:
 ```
-Please enter the Reddit username or profile URL: https://www.reddit.com/user/kojied/
+Please enter the Reddit profile URL: https://www.reddit.com/user/kojied/
 ```
 
 This will create a file named `kojied.txt` in the project directory containing the user persona in a structured, readable format.
