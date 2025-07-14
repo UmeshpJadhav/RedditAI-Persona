@@ -42,7 +42,7 @@ GOOGLE_API_KEY=your_gemini_api_key
 
 ## How to Run
 
-Run the script and enter a Reddit username or profile URL when prompted:
+Run the script and enter a Reddit profile URL when prompted:
 ```bash
 python main.py
 ```
